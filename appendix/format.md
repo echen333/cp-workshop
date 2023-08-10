@@ -1,0 +1,1 @@
+# Format of ICPC

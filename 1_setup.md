@@ -48,17 +48,11 @@ C++ is a widely-used systems programming language known for its fast coding and 
 
 **Note**: If you encounter any difficulties, please reach out to a club officer for assistance, or consult the specific resources provided by the club.
 
-
-**Note**: Depending on your system, installation steps might vary slightly. Consult specific resources or forums related to your OS for troubleshooting.
-
 ## IDE
 
 We recommend using Sublime Text for competitive programming (please make our life easier and use Sublime Text, if only for CP). Below are the instructions to get started with C++ development in Sublime Text.
 
-### For All Operating Systems
 - Download and install [Sublime Text](https://www.sublimetext.com/3).
-
-### For Windows
 - After installing Sublime Text, you'll need to configure it to work with your C++ compiler (e.g., MinGW).
 - Go to "Tools" > "Build System" > "New Build System..." in Sublime Text.
 - Delete the pre-filled content and paste the following code:
@@ -71,19 +65,6 @@ We recommend using Sublime Text for competitive programming (please make our lif
   ```
 - Save the file with a meaningful name, like cpp_build.sublime-build.
 - Now you can press Ctrl + B to compile and run C++ files directly within Sublime Text.
-
-### For Mac
-- Go to "Tools" > "Build System" > "New Build System..." in Sublime Text.
-- Delete the pre-filled content and paste the following code:
-  ```json
-  {
-    "cmd": ["g++", "${file}", "-o", "${file_path}/${file_base_name}", "&&", "${file_path}/${file_base_name}"],
-    "selector": "source.c++",
-    "shell": true
-  }
-  ```
-- Save the file with a meaningful name, like cpp_build.sublime-build.
-- Now you can press Cmd + B to compile and run C++ files directly within Sublime Text
 
 ## Template Code
 
