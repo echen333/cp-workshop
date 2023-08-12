@@ -23,7 +23,7 @@ Some responses you might get after submitting are:
 
 ## How does GT Competitive Programming work?
 
-We meet every Tuesday at 5 PM, where we will go over problem-solving techniques, algorithms, and various competitive programming topics.
+We meet every Thursday at 5 PM, where we will go over problem-solving techniques, algorithms, and various competitive programming topics.
 
 We also have extended practices on the weekends in preparation for competitions like the ICPC (International Collegiate Programming Contest). Learn more the about format [here](./appendix/format.md).
 
