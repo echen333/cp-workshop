@@ -12,15 +12,6 @@ Competitive programming is the sport of solving well-defined problems by writing
 
 Some problems you could encounter are mathematical puzzles, shortest path problems, and optimization problems. You will have to code up your solutions, which are tested against the system's test cases. This checks for if they produce the correct answer under the alotted amount of time.
 
-Some responses you might get after submitting are:
-
-- AC (Accepted): Solution passed all tests and is correct.
-- WA (Wrong Answer): Solution produced incorrect output.
-- TLE (Time Limit Exceeded): Solution took too long to run.
-- MLE (Memory Limit Exceeded): Solution used too much memory.
-- RTE (Runtime Error): Solution failed while running (e.g., division by zero).
-
-
 ## How does GT Competitive Programming work?
 
 We meet every Thursday at 5 PM, where we will go over problem-solving techniques, algorithms, and various competitive programming topics.
