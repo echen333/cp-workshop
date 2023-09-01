@@ -1,18 +1,5 @@
-```cpp
-#include "bits/stdc++.h"
+# E
 
-using namespace std;
+Do the sample test cases provide any hints?
 
-void solve() {
-    int n;
-    cin >> n;
-    cout << (n+1)/2 << endl;
-}
-int main() {
-    int t;
-    cin >> t;
-    for (int i=0;i<t;i++) {
-        solve();
-    }
-}
-```
+Think about how you would compute $1+2+3+...+n$ and why it equals $n*(n+1)/2$?

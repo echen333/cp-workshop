@@ -1,29 +1,4 @@
-```cpp
-#include "bits/stdc++.h"
+# I
+notice we just need 3 of the 4 numbers to be almost prime. we can just let the fourth number be our "filler" for our three fixed numbers.
 
-using namespace std;
-
-void solve() {
-    int n;
-    cin >> n;
-    if (n >= 31) {
-        cout << "YES" << endl;
-        int x = n - 30;
-        if (x==6 || x==10 || x==14) {
-            cout << "15 10 6 " << x-1 << endl;
-        } else {
-            cout << "14 10 6 " << x << endl;
-        }
-    } else {
-        cout << "NO" << endl;
-    }
-}
-
-int main() {
-    int t;
-    cin >> t;
-    for (int i=0;i<t;i++) {
-        solve();
-    }
-}
-```
+sometimes, all four may not be all distinct, but we can handle that case in the end.
