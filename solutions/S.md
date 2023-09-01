@@ -1,3 +1,5 @@
+# S: Sorted Adjance Differences
+
 ```cpp
 #include "bits/stdc++.h"
 

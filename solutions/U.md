@@ -1,3 +1,5 @@
+# U: Ternary String
+
 ```cpp
 #include "bits/stdc++.h"
 

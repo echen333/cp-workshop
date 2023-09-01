@@ -1,4 +1,4 @@
-# Watermelon Solutions
+# A: A+B (Trial Problem)
 
 ## CPP
 ```cpp
@@ -6,10 +6,18 @@
 
 using namespace std;
 
-int main() {
+void solve() {
     int a,b;
     cin >> a >> b;
-    cout << a+b << endl;
+    cout << a+b << '\n';
+}
+
+int main() {
+    int t;
+    cin >> t;
+    for (int i=0;i<t;i++) {
+        solve();
+    }
 }
 ```
 

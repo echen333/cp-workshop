@@ -1,3 +1,5 @@
+# Q: Middle Class
+
 ```cpp
 #include "bits/stdc++.h"
 

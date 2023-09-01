@@ -1,3 +1,5 @@
+# Y: 3-Coloring
+
 ```cpp
 #include "bits/stdc++.h"
 

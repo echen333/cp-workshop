@@ -1,3 +1,5 @@
+# F: Maximum GCD
+
 ```cpp
 #include "bits/stdc++.h"
 
