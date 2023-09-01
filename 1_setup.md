@@ -38,6 +38,11 @@ C++ is a widely-used systems programming language known for its fast coding and 
   6. Click "OK" to close all the dialog boxes.
 - Restart your computer or command prompt to apply the changes.
 
+### On Linux
+
+- Open a terminal and run `sudo apt install build-essential`
+- Once that finishes, run `g++ --version` in the terminal to verify it installed properly.
+
 ## Create an Account on Codeforces and Join GT Group
 
 1. Go to the [Codeforces website](https://codeforces.com/).
