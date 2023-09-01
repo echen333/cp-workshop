@@ -38,12 +38,17 @@ C++ is a widely-used systems programming language known for its fast coding and 
   6. Click "OK" to close all the dialog boxes.
 - Restart your computer or command prompt to apply the changes.
 
+### On Linux
+
+- Open a terminal and run `sudo apt install build-essential`
+- Once that finishes, run `g++ --version` in the terminal to verify it installed properly.
+
 ## Create an Account on Codeforces and Join GT Group
 
 1. Go to the [Codeforces website](https://codeforces.com/).
 2. Click on "Enter" or "Register" and follow the prompts to create an account.
 3. Verify your account through your email.
-4. To join the GT Competitive Programming group, click [this link](YOUR_LINK_HERE) or navigate to the group page and request to join.
+4. To join the GT Competitive Programming group, click [this link](https://codeforces.com/group/j7YsoIFtw4/contests) or navigate to the group page and request to join.
 5. Follow any additional instructions on the group page to complete your membership.
 
 **Note**: If you encounter any difficulties, please reach out to a club officer for assistance, or consult the specific resources provided by the club.
