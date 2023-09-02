@@ -21,5 +21,3 @@ Some notes:
 If you got this far, you should have all the prerequisite person knowledge to solve all remaining 21 problems in the set. This will take a lot of time, but perseverance is required.
 
 Remember, we are here to help if you have questions. But we also strongly encourage you to solve problems on your own time aside from workshop times and report back to us with any questions. We specifically made sure the problem difficulty curve was as small as possible.
-
-From now until the end of the workshop, try solving as many as you can. The top $x<10$ (*undisclosed*) people that solve the most problems will get a special prize.

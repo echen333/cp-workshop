@@ -2,6 +2,8 @@
 
 ## Introduction to C++
 
+For most help, search on Google. Reading docs might be helpful, but they go into a lot more detail than you would need now.
+
 ### Basics and Program Structure
 
 In C++, the entry point of the program is the `main` function. Here's a simple example:
@@ -16,6 +18,7 @@ int main() {
 ```
 
 ### Primitives
+
 C++ has several basic data types, including:
 
 - Integer (`int`): e.g., `int x = 42;`
@@ -23,8 +26,12 @@ C++ has several basic data types, including:
 - Character (`char`): e.g., `char letter = 'A';`
 - Boolean (`bool`): e.g., `bool isTrue = true;`
 
+See that we create variables by specificying the type and then the variable name:
+
 ### Strings
+
 Strings in C++ can be handled using the std::string class:
+
 ```cpp
 #include <string>
 
@@ -32,10 +39,18 @@ std::string name = "John";
 ```
 
 ### Arrays
+
 Arrays are a fixed-size collection of elements of the same type:
 
 ```cpp
 int numbers[5] = {10, 20, 30, 40, 50};
+```
+
+Here is how to initialize an array of a fixed size. Note you need to let the compiler know that the size N is constant if you are initializing a global array (global meaning outside `main()`, global is recommended).
+```cpp
+const int N=1e3;
+
+int numbers[N]
 ```
 
 ### Loops
@@ -61,10 +76,14 @@ while(i < 10) {
 
 ## Go to our codeforces mashup
 
-1. Go to `codeforces.com` -> `Groups` -> `Gatech ICPC`. If you don't see Gatech ICPC, refer back to `README.md`
-   1. This is where practice problemsets and competitions are held. 
-2. You should see `Beginner Workshop` near the top.
-3. Press enter.
+1. Go to [`codeforces.com`](codeforces.com) -> `Groups` in the headings bar -> `Gatech ICPC`.
+   1. If you don't see Gatech ICPC, refer back to `README.md`
+   2. This is where practice problemsets and competitions are held. 
+2. You should see `Beginner Workshop`. Press enter.
+   1. We have compiled a set of 26 problems for y'all.
+   2. From now until the end of the workshop, try solving as many as you can. This is one of the only measurements you should judge your progress for this workshop by.
+   3. The top $x<10$ (*undisclosed*) people that solve the most problems will get a special prize.
+   4. We are here to help you! Let us know of any ideas you've thought about.
 
 ## The first problem, A+B
 
@@ -72,4 +91,6 @@ The problem statement requires us to read in two integers and print out their su
 
 A hint is provided [here](./hints/A.md).
 
-Now, [What's next?](./3_practice_practice_practice.md)
+## What's next
+
+Now, [what's next?](./3_practice_practice_practice.md)

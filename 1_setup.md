@@ -73,6 +73,6 @@ We recommend using Sublime Text for competitive programming (please make our lif
 
 ## Template Code
 
-We provide a starting code template at [template.cpp](./template.cpp). This template includes essential libraries and fast Input/Ouput (fastIO). Feel free to modify it to suit your coding style.
+We provide a starting code template at [template.cpp](./appendix/template.cpp). This template includes essential libraries and fast Input/Ouput (fastIO). Feel free to modify it to suit your coding style.
 
 Now let's [solve our first problem](./2_solve_your_first_problem.md)!
