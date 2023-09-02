@@ -1,5 +1,6 @@
 
 # C: Watermelon
+
 ```cpp
 #include "bits/stdc++.h"
 

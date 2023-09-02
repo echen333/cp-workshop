@@ -1,4 +1,4 @@
-# Two Teams Composing
+# P: Two Teams Composing
 
 ```cpp
 #include "bits/stdc++.h"

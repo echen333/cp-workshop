@@ -1,3 +1,4 @@
+
 # A: A+B (Trial Problem)
 
 ## CPP
@@ -20,20 +21,6 @@ int main() {
     }
 }
 ```
-
-## Java
-```java 
-public static void main(String args[]) {
-
-}
-```
-
-## Python
-
-```py
-def hi():
-    print("hi")
-```
 # B: Little Artem and Presents
 
 ## CPP
@@ -49,20 +36,6 @@ int main() {
     int ans = n/3*2 + (n%3>0);
     cout << ans << endl;
 }
-```
-
-## Java
-```java 
-public static void main(String args[]) {
-
-}
-```
-
-## Python
-
-```py
-def hi():
-    print("hi")
 ```
 
 # C: Watermelon
@@ -465,7 +438,7 @@ int main() {
     }
 }
 ```
-# Two Teams Composing
+# P: Two Teams Composing
 
 ```cpp
 #include "bits/stdc++.h"

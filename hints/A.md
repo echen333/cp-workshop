@@ -16,3 +16,5 @@ int main() {
     cin >> a >> b;
 }
 ```
+
+You will need a read the number of test cases and write a for loop in addition.

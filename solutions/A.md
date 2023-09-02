@@ -1,6 +1,5 @@
 # A: A+B (Trial Problem)
 
-## CPP
 ```cpp
 #include "bits/stdc++.h"
 
@@ -19,18 +18,4 @@ int main() {
         solve();
     }
 }
-```
-
-## Java
-```java 
-public static void main(String args[]) {
-
-}
-```
-
-## Python
-
-```py
-def hi():
-    print("hi")
 ```
