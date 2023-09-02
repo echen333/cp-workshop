@@ -13,12 +13,14 @@ C++ is a widely-used systems programming language known for its fast coding and 
 ## Install C++
 
 ### On Mac with new silicon chips (M1, M2)
+
 - Check if you have Homebrew installed by opening Terminal and running `brew --version`. If not installed, proceed to the next step.
 - Install [Homebrew](https://brew.sh/), a package manager for macOS, by following the instructions on their website or running the provided installation script in Terminal.
 - Open Terminal and run `brew install gcc` to install the GNU Compiler Collection, which includes C++.
 - Verify the installation by running `g++ --version` in Terminal. You should see information about the installed version.
 
 ### On Older Macs
+
 - Check if Xcode Command Line Tools are installed by opening Terminal and running `gcc --version`. If a version number is displayed, the tools are already installed. If not, proceed to the next step.
 - Open Terminal and install Xcode Command Line Tools by running `xcode-select --install`. A popup window will appear; click "Install" to proceed.
 - Follow the on-screen instructions to complete the installation.
@@ -27,6 +29,7 @@ C++ is a widely-used systems programming language known for its fast coding and 
 **Note**: Last time I did this, it was quite annoying and took a long time. Ask any of the officers for help if you need.
 
 ### On Windows
+
 - Download [MinGW](https://mingw-w64.org/).
 - Install MinGW by following the on-screen instructions.
 - To add MinGW to your system PATH:
@@ -45,13 +48,10 @@ C++ is a widely-used systems programming language known for its fast coding and 
 
 ## Create an Account on Codeforces and Join GT Group
 
-1. Go to the [Codeforces website](https://codeforces.com/).
-2. Click on "Enter" or "Register" and follow the prompts to create an account.
+1. Go to the [codeforces.com](https://codeforces.com/).
+2. Click on "Register" in the top right and follow the prompts to create an account.
 3. Verify your account through your email.
-4. To join the GT Competitive Programming group, click [this link](https://codeforces.com/group/j7YsoIFtw4/contests) or navigate to the group page and request to join.
-5. Follow any additional instructions on the group page to complete your membership.
-
-**Note**: If you encounter any difficulties, please reach out to a club officer for assistance, or consult the specific resources provided by the club.
+4. To join the GT Competitive Programming group, click [this link](https://codeforces.com/group/j7YsoIFtw4/contests) or navigate to the group page and request to join as a Participant on the right-side panel.
 
 ## IDE
 
@@ -63,24 +63,16 @@ We recommend using Sublime Text for competitive programming (please make our lif
 - Delete the pre-filled content and paste the following code:
   ```json
   {
-    "cmd": ["g++", "${file}", "-o", "${file_path}/${file_base_name}", "&&", "${file_path}/${file_base_name}.exe"],
-    "selector": "source.c++",
-    "shell": true
+    "cmd": ["g++.exe", "-std=c++14", "-o", "$file_base_name", "$file", "&&", "start", "cmd", "/c", "$file_base_name & echo. & echo. & pause"],
+    "shell": true,
+    "selector": "source.c++"
   }
   ```
-- Save the file with a meaningful name, like cpp_build.sublime-build.
+- Save the file with a meaningful name, like `cpp_build.sublime-build`.
 - Now you can press Ctrl + B to compile and run C++ files directly within Sublime Text.
 
 ## Template Code
 
-We provide a starting code template at [template.cpp](./template.cpp). This template includes essential libraries and a standard setup. Feel free to modify it to suit your coding style.
-
-## Create an Account on Codeforces
-
-[Codeforces](https://codeforces.com/) hosts regular programming contests. Creating an account will allow you to participate and track your progress.
-
-1. Go to the [Codeforces website](https://codeforces.com/).
-2. Click on "Enter" or "Register."
-3. Fill in the required information and verify your account.
+We provide a starting code template at [template.cpp](./template.cpp). This template includes essential libraries and fast Input/Ouput (fastIO). Feel free to modify it to suit your coding style.
 
 Now let's [solve our first problem](./2_solve_your_first_problem.md)!

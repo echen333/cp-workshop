@@ -1,25 +1,25 @@
 # Officers
 
 Max Zhang
-![max](../img/max.png)
+
+<img src="../img/max.png" alt="drawing" width="200"/>
 
 Adam and Ed (from left to right)
-![adam,ed](../img/adam,%20ed.png)
+
+<img src="../img/adam,%20ed.png" alt="drawing" width="200"/>
 
 Harry Zhu
 
-![harry](../img/harry_pfp.png)
+<img src="../img/harry_pfp.png" alt="drawing" width="200"/>
 
 Sushanth
 
-![sushanth](../img/sushanth.jpeg)
+<img src="../img/sushanth.jpeg" alt="drawing" width="200"/>
 
 Brian (gone in the fall, interning at Snowflake)
 
 # Past officers
 
-- Neil Thistlethwaite
-Currently at Jane Street
+- Neil Thistlethwaite: Currently at Jane Street
 
-- Jeffrey Chang
-Currently at Jane Street
+- Jeffrey Chang: Currently at Jane Street

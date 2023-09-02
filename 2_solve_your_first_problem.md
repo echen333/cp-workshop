@@ -61,25 +61,15 @@ while(i < 10) {
 
 ## Go to our codeforces mashup
 
-ask smax? https://codeforces.com/group/j7YsoIFtw4/contests
+1. Go to `codeforces.com` -> `Groups` -> `Gatech ICPC`. If you don't see Gatech ICPC, refer back to `README.md`
+   1. This is where practice problemsets and competitions are held. 
+2. You should see `Beginner Workshop` near the top.
+3. Press enter.
 
-## The first problem, Watermelon
+## The first problem, A+B
+
+The problem statement requires us to read in two integers and print out their sum. See if you can figure it out.
+
+A hint is provided [here](./hints/A.md).
 
 Now, [What's next?](./3_practice_practice_practice.md)
-
-## Debugging Your Submission
-
-"Debugging is hard: you'd much rather have not made the bug in the first place." - [Ben Qi](https://web.archive.org/web/20221101102128/https://en.wikipedia.org/wiki/Benjamin_Qi)
-<!-- lol had to go thru wayback -->
-
-Some responses you might get after submitting are:
-
-- AC (Accepted): Solution passed all tests and is correct.
-- WA (Wrong Answer): Solution produced incorrect output.
-- TLE (Time Limit Exceeded): Solution took too long to run.
-- MLE (Memory Limit Exceeded): Solution used too much memory.
-- RTE (Runtime Error): Solution failed while running (e.g., division by zero).
-
-Tips on how to debug your program based on output can be found [here](https://usaco.guide/general/debugging-checklist?lang=cpp).
-
-More advanced debugging docs can be found [here](https://usaco.guide/general/basic-debugging?lang=cpp) and [here](https://usaco.guide/general/debugging-cpp?lang=cpp).
