@@ -1,5 +1,7 @@
 # L: Similar Pairs
 
+![](../img/L.png)
+
 ```cpp
 #include "bits/stdc++.h"
 

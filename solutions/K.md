@@ -1,5 +1,7 @@
 # K: Johny and Ancient Computer
 
+![](../img/K.png)
+
 ```cpp
 #include "bits/stdc++.h"
 

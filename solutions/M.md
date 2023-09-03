@@ -1,5 +1,7 @@
 # M: New Theatre Square
 
+![](../img/M.png)
+
 ```cpp
 #include "bits/stdc++.h"
 

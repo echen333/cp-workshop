@@ -1,5 +1,7 @@
 # I: Captain Flint and Crew Recruiting
 
+![](../img/I.png)
+
 ```cpp
 #include "bits/stdc++.h"
 

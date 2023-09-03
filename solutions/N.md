@@ -1,5 +1,7 @@
 # N: Berland Poker
 
+![](../img/N.png)
+
 ```cpp
 #include "bits/stdc++.h"
 

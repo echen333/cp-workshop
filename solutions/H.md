@@ -1,5 +1,7 @@
 # H: 01 Game
 
+![](../img/H.png)
+
 ```cpp
 #include "bits/stdc++.h"
 

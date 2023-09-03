@@ -1,5 +1,7 @@
 # G: Omkar and Completion
 
+![](../img/G.png)
+
 ```cpp
 #include "bits/stdc++.h"
 

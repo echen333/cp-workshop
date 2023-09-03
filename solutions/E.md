@@ -1,5 +1,7 @@
 # E: Magical Sticks
 
+![](../img/E.png)
+
 ```cpp
 #include "bits/stdc++.h"
 

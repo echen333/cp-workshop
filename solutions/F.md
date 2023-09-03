@@ -1,5 +1,7 @@
 # F: Maximum GCD
 
+![](../img/F.png)
+
 ```cpp
 #include "bits/stdc++.h"
 

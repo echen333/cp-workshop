@@ -1,5 +1,7 @@
 # J: LCM Problem
 
+![](../img/J.png)
+
 ```cpp
 #include "bits/stdc++.h"
 

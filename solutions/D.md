@@ -1,5 +1,7 @@
 # D: Desorting
 
+![](../img/D.png)
+
 ```cpp
 #include "bits/stdc++.h"
 
