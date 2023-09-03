@@ -1,7 +1,6 @@
 
 # A: A+B (Trial Problem)
 
-## CPP
 ```cpp
 #include "bits/stdc++.h"
 
@@ -21,9 +20,14 @@ int main() {
     }
 }
 ```
+
 # B: Little Artem and Presents
 
-## CPP
+We need to make sequence of moves like: 1, 2, 1, 2, ...
+
+So the answer is 2 * n / 3. After that we have either 0, 1 or 2 stones left. If we have 0, we are done, otherwise we have 1 or 2 left, so we only can give 1 more stone.
+
+Final formula is: (2 * n) / 3 + (n % 3 != 0 ? 1 : 0);
 
 ```cpp
 #include "bits/stdc++.h"
@@ -39,6 +43,9 @@ int main() {
 ```
 
 # C: Watermelon
+
+We can always split the watermelon if $n$ is an even integer $>=4$.
+
 ```cpp
 #include "bits/stdc++.h"
 
@@ -55,6 +62,8 @@ int main() {
 }
 ```
 # D: Desorting
+
+![](../img/D.png)
 
 ```cpp
 #include "bits/stdc++.h"
@@ -96,6 +105,8 @@ int main() {
 ```
 # E: Magical Sticks
 
+![](../img/E.png)
+
 ```cpp
 #include "bits/stdc++.h"
 
@@ -116,6 +127,8 @@ int main() {
 ```
 # F: Maximum GCD
 
+![](../img/F.png)
+
 ```cpp
 #include "bits/stdc++.h"
 
@@ -135,6 +148,8 @@ int main() {
 }
 ```
 # G: Omkar and Completion
+
+![](../img/G.png)
 
 ```cpp
 #include "bits/stdc++.h"
@@ -160,6 +175,8 @@ int main() {
 }
 ```
 # H: 01 Game
+
+![](../img/H.png)
 
 ```cpp
 #include "bits/stdc++.h"
@@ -194,6 +211,8 @@ int main() {
 ```
 # I: Captain Flint and Crew Recruiting
 
+![](../img/I.png)
+
 ```cpp
 #include "bits/stdc++.h"
 
@@ -225,6 +244,8 @@ int main() {
 ```
 # J: LCM Problem
 
+![](../img/J.png)
+
 ```cpp
 #include "bits/stdc++.h"
 
@@ -249,6 +270,8 @@ int main() {
 }
 ```
 # K: Johny and Ancient Computer
+
+![](../img/K.png)
 
 ```cpp
 #include "bits/stdc++.h"
@@ -287,6 +310,8 @@ int main() {
 }
 ```
 # L: Similar Pairs
+
+![](../img/L.png)
 
 ```cpp
 #include "bits/stdc++.h"
@@ -339,6 +364,8 @@ int main() {
 ```
 # M: New Theatre Square
 
+![](../img/M.png)
+
 ```cpp
 #include "bits/stdc++.h"
 
@@ -390,6 +417,8 @@ int main() {
 ```
 # N: Berland Poker
 
+![](../img/N.png)
+
 ```cpp
 #include "bits/stdc++.h"
 
@@ -416,6 +445,9 @@ int main() {
 }
 ```
 # O: Road to Zero
+
+![](../img/O.png)
+
 ```cpp
 #include "bits/stdc++.h"
 
@@ -439,6 +471,8 @@ int main() {
 }
 ```
 # P: Two Teams Composing
+
+![](../img/P.png)
 
 ```cpp
 #include "bits/stdc++.h"
@@ -474,6 +508,8 @@ int main() {
 }
 ```
 # Q: Middle Class
+
+![](../img/Q.png)
 
 ```cpp
 #include "bits/stdc++.h"
@@ -513,6 +549,9 @@ int main() {
 }
 ```
 # R: Kind Anton
+
+![](../img/R.png)
+
 ```cpp
 #include "bits/stdc++.h"
 
@@ -567,6 +606,8 @@ int main() {
 ```
 # S: Sorted Adjance Differences
 
+![](../img/S.png)
+
 ```cpp
 #include "bits/stdc++.h"
 
@@ -611,6 +652,8 @@ int main() {
 }
 ```
 # T: Alternating Subsequence
+
+![](../img/T.png)
 
 ```cpp
 #include "bits/stdc++.h"
@@ -664,6 +707,8 @@ int main() {
 ```
 # U: Ternary String
 
+![](../img/U.png)
+
 ```cpp
 #include "bits/stdc++.h"
 
@@ -709,6 +754,8 @@ int main() {
 }
 ```
 # V: Anti-Sudoku
+
+![](../img/V.png)
 
 ```cpp
 #include "bits/stdc++.h"
@@ -759,6 +806,8 @@ int main() {
 ```
 # W: Permutation Partitions
 
+![](../img/W.png)
+
 ```cpp
 #include "bits/stdc++.h"
 
@@ -801,6 +850,10 @@ int main() {
     }
 }
 ```
+# X: Balance the Bits
+
+![](../img/X.png)
+
 ```cpp
 #include "bits/stdc++.h"
 
@@ -887,6 +940,8 @@ int main() {
 ```
 # Y: 3-Coloring
 
+![](../img/Y.png)
+
 ```cpp
 #include "bits/stdc++.h"
 
@@ -959,6 +1014,8 @@ int main() {
 }
 ```
 # Z: Nezzar and Board
+
+![](../img/Z.png)
 
 ```cpp
 #include "bits/stdc++.h"

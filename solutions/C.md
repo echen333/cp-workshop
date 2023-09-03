@@ -1,6 +1,8 @@
 
 # C: Watermelon
 
+We can always split the watermelon if $n$ is an even integer $>=4$.
+
 ```cpp
 #include "bits/stdc++.h"
 

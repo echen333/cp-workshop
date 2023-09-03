@@ -1,3 +1,4 @@
+
 # A
 
 To read in input, use cin.
@@ -16,6 +17,9 @@ int main() {
     cin >> a >> b;
 }
 ```
+
+You will need a read the number of test cases and write a for loop in addition.
+
 # B
 
 If we have a really large $n$, we should give 1's. If we gave 1 last time, we should give 2.
@@ -28,6 +32,7 @@ now imagine the case for 2 vs. 6
 
 If its not sorted, we know the answer is just 0. Now we can say the array must be sorted and a non-decreasing array.
 
+To make $a$ not sorted, we just need to pick one index $i$ so $a_i>a_{i+1}$. How do we do this?
 # E
 
 Do the sample test cases provide any hints?
@@ -44,9 +49,9 @@ What is the simplest case for this problem?
 Does it even matter the position of the elements in the string. as in can we solve the problem by just knowing the number of 0's and 1's?
 
 # I
-notice we just need 3 of the 4 numbers to be almost prime. we can just let the fourth number be our "filler" for our three fixed numbers.
+Notice we just need 3 of the 4 numbers to be almost prime. We can just let the fourth number be our "filler" for our three fixed numbers.
 
-sometimes, all four may not be all distinct, but we can handle that case in the end.
+Sometimes, all four may not be all distinct, but we can handle that case in the end.
 
 # J
 What is the tightest bound possible? What if can set one of the numbers to l.
@@ -62,15 +67,16 @@ first look at if there was no $|x-y|=1$ condition
 if y is cheaper than twice of x, what can you say about when to use a 1x2 block?
 
 # N
-whats the greediest solution? give all you can to 1 player and spread evenly over rest.
+What's the greediest solution? Give all you can to 1 player and spread evenly over rest.
 
 # O
-If b is cheap, theoretically, we would like to decrease x and y at the same time.
+If $b$ is cheap, theoretically, we would like to decrease $x$ and $y$ at the same time. At what $b$ would it be more efficient to just use 2 $a$'s?
 
 Make sure to use long long's since the total cost might be over 2e9.
 
 # P
 Consider using a hashmap to keep track of frequencies for each number. Alternatively, sort the numbers to count the largest frequency.
+
 # Q
 Think about how to calculate average of $n$ numbers.
 
@@ -86,9 +92,12 @@ Can you do it with the greedy  approach?
 
 # U
 
-Suppose the answer was interval [l,r]. Let's fix $r$ and then find the shortest substring from there. Is there a faster way to do this?
+Suppose the answer was interval [l,r]. Let's fix $r$ to find the largest $l<r$ that works.
+
+To speed this up, is there a way we can use the answer from $r-1$ to find the answer for $r$?
 
 # V
+
 Think of simple solutions that generalize to all sudoku boards.
 
 # W
