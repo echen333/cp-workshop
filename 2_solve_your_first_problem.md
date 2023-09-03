@@ -91,6 +91,20 @@ The problem statement requires us to read in two integers and print out their su
 
 A hint is provided [here](./hints/A.md).
 
+To submit your solution, submit by pasting your code under `Submit Code` in the top panel or by choosing your `.cpp` file on right-side panel.
+
+Codeforces will then redirect you to your `Status` page. Your status will be one of the following:
+Some responses you might get after submitting are:
+
+- AC (Accepted): Congratulations! Solution passed all tests.
+- WA (Wrong Answer): Solution produced incorrect output for test case $x$.
+- TLE (Time Limit Exceeded): Solution took too long to run. Check for infinite loops or your time complexity (covered later).
+- MLE (Memory Limit Exceeded): Solution used too much memory.
+- RTE (Runtime Error): Solution failed while running (e.g., division by zero or array out of bounds).
+- Compile Error: Failed to Compile
+
+Let us know if you need help debugging!
+
 ## What's next
 
 Now, [what's next?](./3_practice_practice_practice.md)
