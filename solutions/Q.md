@@ -1,5 +1,7 @@
 # Q: Middle Class
 
+![](../img/Q.png)
+
 ```cpp
 #include "bits/stdc++.h"
 

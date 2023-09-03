@@ -1,5 +1,7 @@
 # Y: 3-Coloring
 
+![](../img/Y.png)
+
 ```cpp
 #include "bits/stdc++.h"
 

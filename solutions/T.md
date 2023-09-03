@@ -1,5 +1,7 @@
 # T: Alternating Subsequence
 
+![](../img/T.png)
+
 ```cpp
 #include "bits/stdc++.h"
 

@@ -1,4 +1,7 @@
 # R: Kind Anton
+
+![](../img/R.png)
+
 ```cpp
 #include "bits/stdc++.h"
 

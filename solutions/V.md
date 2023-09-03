@@ -1,5 +1,7 @@
 # V: Anti-Sudoku
 
+![](../img/V.png)
+
 ```cpp
 #include "bits/stdc++.h"
 

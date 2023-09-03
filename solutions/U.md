@@ -1,5 +1,7 @@
 # U: Ternary String
 
+![](../img/U.png)
+
 ```cpp
 #include "bits/stdc++.h"
 

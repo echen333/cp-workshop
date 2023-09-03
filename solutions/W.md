@@ -1,5 +1,7 @@
 # W: Permutation Partitions
 
+![](../img/W.png)
+
 ```cpp
 #include "bits/stdc++.h"
 

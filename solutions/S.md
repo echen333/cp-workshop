@@ -1,5 +1,7 @@
 # S: Sorted Adjance Differences
 
+![](../img/S.png)
+
 ```cpp
 #include "bits/stdc++.h"
 

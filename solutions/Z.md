@@ -1,5 +1,7 @@
 # Z: Nezzar and Board
 
+![](../img/Z.png)
+
 ```cpp
 #include "bits/stdc++.h"
 

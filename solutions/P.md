@@ -1,5 +1,7 @@
 # P: Two Teams Composing
 
+![](../img/P.png)
+
 ```cpp
 #include "bits/stdc++.h"
 

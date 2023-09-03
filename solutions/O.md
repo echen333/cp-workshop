@@ -1,4 +1,7 @@
 # O: Road to Zero
+
+![](../img/O.png)
+
 ```cpp
 #include "bits/stdc++.h"
 
