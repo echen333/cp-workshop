@@ -1,5 +1,7 @@
 # Practice
 
+*Prev: [Solve Your First Problem](./2_solve_your_first_problem.md)*
+
 See if you can solve the first five problems: A,B,C,D,E. and report back to here after! Hints are provided in the hints folder! Try to code it all up yourself.
 
 Great job so far! Hopefully by now you are getting the hang of things.

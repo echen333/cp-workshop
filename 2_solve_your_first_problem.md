@@ -1,5 +1,7 @@
 # Solve your first problem
 
+*Prev: [Setup](./1_setup.md)*
+
 ## Introduction to C++
 
 For most help, search on Google. Reading docs might be helpful, but they go into a lot more detail than you would need now.
@@ -94,7 +96,6 @@ A hint is provided [here](./hints/A.md).
 To submit your solution, submit by pasting your code under `Submit Code` in the top panel or by choosing your `.cpp` file on right-side panel.
 
 Codeforces will then redirect you to your `Status` page. Your status will be one of the following:
-Some responses you might get after submitting are:
 
 - AC (Accepted): Congratulations! Solution passed all tests.
 - WA (Wrong Answer): Solution produced incorrect output for test case $x$.

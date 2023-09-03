@@ -1,5 +1,7 @@
 # Setup
 
+*Prev: [README.md](./README.md)*
+
 At GT Competitive Programming, we **strongly** encourage everyone to use C++. If you know Java or Python, that's great! These languages have similar constructs, and you should be able to pick up C++ quickly.
 
 ## Why C++
@@ -71,8 +73,24 @@ We recommend using Sublime Text for competitive programming (please make our lif
 - Save the file with a meaningful name, like `cpp_build.sublime-build`.
 - Now you can press Ctrl + B to compile and run C++ files directly within Sublime Text.
 
+*Note*: Sublime may once in awhile ask for you to buy their premium version. Just ignore this, premium has no better features.
+
 ## Template Code
 
 We provide a starting code template at [template.cpp](./appendix/template.cpp). This template includes essential libraries and fast Input/Ouput (fastIO). Feel free to modify it to suit your coding style.
+
+## Run Hello World Locally
+
+1. Create a new file in any directory in Sublime Text.
+
+   ```cpp
+   #include <bits/stdc++.h>
+
+   int main() {
+     cout << "Hello World" << endl;
+   }
+   ```
+
+2. Press `Ctrl-B` or `Cmd-B` on Mac. A black terminal window should popup with the output Hello World!.
 
 Now let's [solve our first problem](./2_solve_your_first_problem.md)!
