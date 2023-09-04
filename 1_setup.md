@@ -71,7 +71,7 @@ We recommend using Sublime Text for competitive programming (please make our lif
     "selector": "source.c++"
   }
   ```
-- Save the file with a meaningful name, like `cpp_build.sublime-build`.
+- Save the file to the default directory they provide with a meaningful name, like `cpp_build.sublime-build`.
 - Now you can press Ctrl + B to compile and run C++ files directly within Sublime Text.
 
 *Note*: Sublime may once in awhile ask for you to buy their premium version. Just ignore this, premium has no better features.
