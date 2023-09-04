@@ -81,7 +81,9 @@ Consider using a hashmap to keep track of frequencies for each number. Alternati
 Think about how to calculate average of $n$ numbers.
 
 # R
-Notice the condition in order to add of $i<j$, so try starting from the end to the beginning of the array.
+
+Notice the condition in order to add of $a_i$, $i$ must be less than $j$, so try starting from the end to the beginning of the array.
+
 # S
 
 Are there any easy solutions after you sort the array?
@@ -92,7 +94,7 @@ Can you do it with the greedy  approach?
 
 # U
 
-Suppose the answer was interval [l,r]. Let's fix $r$ to find the largest $l<r$ that works.
+Suppose the answer was interval [l,r]. Let's fix $r$ to find the largest $l$<$r$ that works.
 
 To speed this up, is there a way we can use the answer from $r-1$ to find the answer for $r$?
 
