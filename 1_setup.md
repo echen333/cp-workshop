@@ -86,9 +86,9 @@ We provide a starting code template at [template.cpp](./appendix/template.cpp). 
 
    ```cpp
    #include <bits/stdc++.h>
-
+   
    int main() {
-     cout << "Hello World" << endl;
+     cout << "Hello World" << '\n';
    }
    ```
 
