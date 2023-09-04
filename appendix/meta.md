@@ -4,7 +4,7 @@
 
 ## Max Zhang
 
-I think a lot of times we obsess over the right way to get into something or the perfectly efficient path to success, so much that it paralyzes us and we never actually start. Just start doing problems. Do contests. See what works for you and what doesn't. Reflect and adjust accordingly. What works for someone else may not work for you, and being successful is just finding the right method of improvement for you.
+I think a lot of times we obsess over the right way to get into something or the optimal path to success, so much that it paralyzes us and we never actually start. Just start doing problems. Do contests. See what works for you and what doesn't. Reflect and adjust accordingly. What works for someone else may not work for you, and being successful is just finding the right method of improvement for you.
 
 ## Jeffrey Chang
 
