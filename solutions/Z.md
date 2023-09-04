@@ -30,13 +30,16 @@ void solve() {
         // O(logn) with euclidean algo
     }
     if (abs(k-v[0])%ans==0) {
-        cout << "YES" << endl;
+        cout << "YES" << '\n';
     } else {
-        cout << "NO" << endl;
+        cout << "NO" << '\n';
     }
 }
 
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     int t=1;
     cin >> t;
     for (int i=0;i<t;i++) {

@@ -25,14 +25,17 @@ void solve() {
         }
     }
     if (unsorted) {
-        cout << 0 << endl;
+        cout << 0 << '\n';
         return; // end function early
     }
     // once again floor division
-    cout << (min_diff+2)/2 << endl; 
+    cout << (min_diff+2)/2 << '\n'; 
     return;
 }
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     int t;
     cin >> t;
     for (int i=0;i<t;i++) {

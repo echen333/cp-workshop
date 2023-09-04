@@ -16,10 +16,13 @@ void solve() {
     // divide evenly over rest of k-1 players
     // ceil division of a/b is (a+b-1)/b
     int rest_most = (rest_jokers+k-2)/(k-1);
-    cout << my_jokers - rest_most << endl;
+    cout << my_jokers - rest_most << '\n';
 }
 
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     int t;
     cin >> t;
     for (int i=0;i<t;i++) {

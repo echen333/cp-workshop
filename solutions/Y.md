@@ -26,13 +26,13 @@ void solve() {
                 int val = 2;
                 int row = parity[1].back().first;
                 int col = parity[1].back().second;
-                cout << val << " " << row << " " << col << endl;
+                cout << val << " " << row << " " << col << '\n';
                 parity[1].pop_back();
             } else {
                 int val = 3;
                 int row = parity[0].back().first;
                 int col = parity[0].back().second;
-                cout << val << " " << row << " " << col << endl;
+                cout << val << " " << row << " " << col << '\n';
                 parity[0].pop_back();
             }
         } else if (x == 2) {
@@ -40,13 +40,13 @@ void solve() {
                 int val = 1;
                 int row = parity[0].back().first;
                 int col = parity[0].back().second;
-                cout << val << " " << row << " " << col << endl;
+                cout << val << " " << row << " " << col << '\n';
                 parity[0].pop_back();
             } else {
                 int val = 3;
                 int row = parity[1].back().first;
                 int col = parity[1].back().second;
-                cout << val << " " << row << " " << col << endl;
+                cout << val << " " << row << " " << col << '\n';
                 parity[1].pop_back();
             }
         } else {
@@ -55,7 +55,7 @@ void solve() {
                     int val = j+1;
                     int row = parity[j].back().first;
                     int col = parity[j].back().second;
-                    cout << val << " " << row << " " << col << endl;
+                    cout << val << " " << row << " " << col << '\n';
                     parity[j].pop_back();
                     break;
                 }
@@ -66,6 +66,9 @@ void solve() {
 }
 
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     int t=1;
     // cin >> t;
     for (int i=0;i<t;i++) {
