@@ -71,7 +71,7 @@ While loops continue as long as a condition is true:
 ```cpp
 int i = 0;
 while(i < 10) {
-  std::cout << i << std::endl;
+  std::cout << i << '\n';
   i++;
 }
 ```
@@ -80,7 +80,7 @@ while(i < 10) {
 
 1. Go to [`codeforces.com`](codeforces.com) -> `Groups` in the headings bar -> `Gatech ICPC`.
    1. If you don't see Gatech ICPC, refer back to `README.md`
-   2. This is where practice problemsets and competitions are held. 
+   2. This is where practice problemsets and competitions are held.
 2. You should see `Beginner Workshop`. Press enter.
    1. We have compiled a set of 26 problems for y'all.
    2. From now until the end of the workshop, try solving as many as you can. This is one of the only measurements you should judge your progress for this workshop by.
