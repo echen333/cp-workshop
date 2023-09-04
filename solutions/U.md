@@ -34,11 +34,14 @@ void solve() {
             continue;
         ans = min(ans, i-fst+1);
     }
-    cout << (ans == 1e9?0:ans) << endl;
+    cout << (ans == 1e9?0:ans) << '\n';
 
 }
 
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     int t;
     cin >> t;
     for (int i=0;i<t;i++) {

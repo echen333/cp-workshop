@@ -19,13 +19,16 @@ void solve() {
         }
     }
     if (min(num_0,num_1)%2 == 1) {
-        cout << "DA" << endl;
+        cout << "DA" << '\n';
     } else {
-        cout << "NET" << endl;
+        cout << "NET" << '\n';
     }
 }
 
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     int t;
     cin >> t;
     for (int i=0;i<t;i++) {

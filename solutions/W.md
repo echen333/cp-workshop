@@ -33,10 +33,13 @@ void solve() {
     for (int i=1;i<v.size();i++) {
         ways = ways * (v[i]-v[i-1]) % MOD;
     }
-    cout << sum << " " << ways << endl;
+    cout << sum << " " << ways << '\n';
 }
 
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     int t=1;
     // cin >> t;
     for (int i=0;i<t;i++) {

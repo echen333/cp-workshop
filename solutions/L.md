@@ -23,7 +23,7 @@ void solve() {
     }
     if (num_evens%2 == 0) {
         // just pair all the evens together and all the odds together
-        cout << "YES" << endl;
+        cout << "YES" << '\n';
     } else {
         //otherwise it depends on whether we have >=1 pair where |x-y|=1
         sort(arr,arr+n);
@@ -34,9 +34,9 @@ void solve() {
             }
         }
         if (flag) {
-            cout << "YES" << endl;
+            cout << "YES" << '\n';
         } else {
-            cout << "NO" << endl;
+            cout << "NO" << '\n';
         }
 
     }
@@ -44,6 +44,9 @@ void solve() {
 }
 
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     int t;
     cin >> t;
     for (int i=0;i<t;i++) {

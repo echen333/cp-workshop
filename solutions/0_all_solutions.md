@@ -13,6 +13,9 @@ void solve() {
 }
 
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     int t;
     cin >> t;
     for (int i=0;i<t;i++) {
@@ -35,10 +38,13 @@ Final formula is: (2 * n) / 3 + (n % 3 != 0 ? 1 : 0);
 using namespace std;
 
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     int n;
     cin >> n;
     int ans = n/3*2 + (n%3>0);
-    cout << ans << endl;
+    cout << ans << '\n';
 }
 ```
 
@@ -52,12 +58,15 @@ We can always split the watermelon if $n$ is an even integer $>=4$.
 using namespace std;
 
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     int n;
     cin >> n;
     if (n%4==0 || (n%2==0 && n>=6)) {
-        cout << "YES" << endl;
+        cout << "YES" << '\n';
     } else {
-        cout << "NO" << endl;
+        cout << "NO" << '\n';
     }
 }
 ```
@@ -88,14 +97,17 @@ void solve() {
         }
     }
     if (unsorted) {
-        cout << 0 << endl;
+        cout << 0 << '\n';
         return; // end function early
     }
     // once again floor division
-    cout << (min_diff+2)/2 << endl; 
+    cout << (min_diff+2)/2 << '\n'; 
     return;
 }
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     int t;
     cin >> t;
     for (int i=0;i<t;i++) {
@@ -115,9 +127,12 @@ using namespace std;
 void solve() {
     int n;
     cin >> n;
-    cout << (n+1)/2 << endl;
+    cout << (n+1)/2 << '\n';
 }
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     int t;
     cin >> t;
     for (int i=0;i<t;i++) {
@@ -137,9 +152,12 @@ using namespace std;
 void solve() {
     int n;
     cin >> n;
-    cout << n/2 << endl;
+    cout << n/2 << '\n';
 }
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     int t;
     cin >> t;
     for (int i=0;i<t;i++) {
@@ -163,10 +181,13 @@ void solve() {
         // codeforces auto trims the ending " "
         cout << 1 << " ";
     }
-    cout << endl;
+    cout << '\n';
 }
 
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     int t;
     cin >> t;
     for (int i=0;i<t;i++) {
@@ -195,13 +216,16 @@ void solve() {
         }
     }
     if (min(num_0,num_1)%2 == 1) {
-        cout << "DA" << endl;
+        cout << "DA" << '\n';
     } else {
-        cout << "NET" << endl;
+        cout << "NET" << '\n';
     }
 }
 
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     int t;
     cin >> t;
     for (int i=0;i<t;i++) {
@@ -222,19 +246,22 @@ void solve() {
     int n;
     cin >> n;
     if (n >= 31) {
-        cout << "YES" << endl;
+        cout << "YES" << '\n';
         int x = n - 30;
         if (x==6 || x==10 || x==14) {
-            cout << "15 10 6 " << x-1 << endl;
+            cout << "15 10 6 " << x-1 << '\n';
         } else {
-            cout << "14 10 6 " << x << endl;
+            cout << "14 10 6 " << x << '\n';
         }
     } else {
-        cout << "NO" << endl;
+        cout << "NO" << '\n';
     }
 }
 
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     int t;
     cin >> t;
     for (int i=0;i<t;i++) {
@@ -255,13 +282,16 @@ void solve() {
     int l,r;
     cin >> l >> r;
     if (2*l <= r) {
-        cout << l << " " << 2*l << endl;
+        cout << l << " " << 2*l << '\n';
     } else {
-        cout << "-1 -1" << endl;
+        cout << "-1 -1" << '\n';
     }
 }
 
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     int t;
     cin >> t;
     for (int i=0;i<t;i++) {
@@ -302,6 +332,9 @@ void solve() {
 }
 
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     int t;
     cin >> t;
     for (int i=0;i<t;i++) {
@@ -334,7 +367,7 @@ void solve() {
     }
     if (num_evens%2 == 0) {
         // just pair all the evens together and all the odds together
-        cout << "YES" << endl;
+        cout << "YES" << '\n';
     } else {
         //otherwise it depends on whether we have >=1 pair where |x-y|=1
         sort(arr,arr+n);
@@ -345,9 +378,9 @@ void solve() {
             }
         }
         if (flag) {
-            cout << "YES" << endl;
+            cout << "YES" << '\n';
         } else {
-            cout << "NO" << endl;
+            cout << "NO" << '\n';
         }
 
     }
@@ -355,6 +388,9 @@ void solve() {
 }
 
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     int t;
     cin >> t;
     for (int i=0;i<t;i++) {
@@ -397,7 +433,7 @@ void solve() {
             cost += x;
         }
     }
-    cout << cost << endl;
+    cout << cost << '\n';
 
     for (int i=0;i<n;i++) {
         for (int j=0;j<m;j++) {
@@ -408,6 +444,9 @@ void solve() {
 }
 
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     int t;
     cin >> t;
     for (int i=0;i<t;i++) {
@@ -433,10 +472,13 @@ void solve() {
     // divide evenly over rest of k-1 players
     // ceil division of a/b is (a+b-1)/b
     int rest_most = (rest_jokers+k-2)/(k-1);
-    cout << my_jokers - rest_most << endl;
+    cout << my_jokers - rest_most << '\n';
 }
 
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     int t;
     cin >> t;
     for (int i=0;i<t;i++) {
@@ -459,10 +501,13 @@ void solve() {
     b= min(b,2*a);
     long long cost_decr_both = min(x,y) * b;
     long long cost_decr_larger = abs(x-y) * a;
-    cout << cost_decr_both + cost_decr_larger << endl;
+    cout << cost_decr_both + cost_decr_larger << '\n';
 }
 
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     int t;
     cin >> t;
     for (int i=0;i<t;i++) {
@@ -493,13 +538,16 @@ void solve() {
 
     int distinct_nums = m.size();
     if (distinct_nums-1 >= ans) {
-        cout << ans << endl;
+        cout << ans << '\n';
     } else {
-        cout << min(ans-1, distinct_nums) << endl;
+        cout << min(ans-1, distinct_nums) << '\n';
     }
 }
 
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     int t;
     cin >> t;
     for (int i=0;i<t;i++) {
@@ -537,10 +585,13 @@ void solve() {
             break;
         }
     }
-    cout << ans << endl;
+    cout << ans << '\n';
 }
 
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     int t;
     cin >> t;
     for (int i=0;i<t;i++) {
@@ -593,10 +644,13 @@ void solve() {
             }
         }
     }
-    cout << (works?"YES":"NO") << endl;
+    cout << (works?"YES":"NO") << '\n';
 }
 
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     int t;
     cin >> t;
     for (int i=0;i<t;i++) {
@@ -640,10 +694,13 @@ void solve() {
     for (int i=0;i<n;i++) {
         cout << ans[i] << " ";
     }
-    cout << endl;
+    cout << '\n';
 }
 
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     int t;
     cin >> t;
     for (int i=0;i<t;i++) {
@@ -698,6 +755,9 @@ void solve() {
 }
 
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     int t;
     cin >> t;
     for (int i=0;i<t;i++) {
@@ -741,11 +801,14 @@ void solve() {
             continue;
         ans = min(ans, i-fst+1);
     }
-    cout << (ans == 1e9?0:ans) << endl;
+    cout << (ans == 1e9?0:ans) << '\n';
 
 }
 
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     int t;
     cin >> t;
     for (int i=0;i<t;i++) {
@@ -797,6 +860,9 @@ void solve() {
 }
 
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     int t;
     cin >> t;
     for (int i=0;i<t;i++) {
@@ -839,10 +905,13 @@ void solve() {
     for (int i=1;i<v.size();i++) {
         ways = ways * (v[i]-v[i-1]) % MOD;
     }
-    cout << sum << " " << ways << endl;
+    cout << sum << " " << ways << '\n';
 }
 
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     int t=1;
     // cin >> t;
     for (int i=0;i<t;i++) {
@@ -888,7 +957,7 @@ void solve() {
         }
     }
     if (cnt_ones%2 == 1) {
-        cout << "NO" << endl;
+        cout << "NO" << '\n';
         return;
     }
     cnt_ones -= cnt_ones/2; // assign just first half as (
@@ -916,11 +985,11 @@ void solve() {
     }
     string s1(r1), s2(r2);
     if (works(s1) && works(s2)) {
-        cout << "YES" << endl;
+        cout << "YES" << '\n';
         cout << s1 << '\n';
         cout << s2 << '\n';
     } else {
-        cout << "NO" << endl;
+        cout << "NO" << '\n';
     }
 
     for (int i=0;i<n;i++) {
@@ -931,6 +1000,9 @@ void solve() {
 }
 
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     int t=1;
     cin >> t;
     for (int i=0;i<t;i++) {
@@ -966,13 +1038,13 @@ void solve() {
                 int val = 2;
                 int row = parity[1].back().first;
                 int col = parity[1].back().second;
-                cout << val << " " << row << " " << col << endl;
+                cout << val << " " << row << " " << col << '\n';
                 parity[1].pop_back();
             } else {
                 int val = 3;
                 int row = parity[0].back().first;
                 int col = parity[0].back().second;
-                cout << val << " " << row << " " << col << endl;
+                cout << val << " " << row << " " << col << '\n';
                 parity[0].pop_back();
             }
         } else if (x == 2) {
@@ -980,13 +1052,13 @@ void solve() {
                 int val = 1;
                 int row = parity[0].back().first;
                 int col = parity[0].back().second;
-                cout << val << " " << row << " " << col << endl;
+                cout << val << " " << row << " " << col << '\n';
                 parity[0].pop_back();
             } else {
                 int val = 3;
                 int row = parity[1].back().first;
                 int col = parity[1].back().second;
-                cout << val << " " << row << " " << col << endl;
+                cout << val << " " << row << " " << col << '\n';
                 parity[1].pop_back();
             }
         } else {
@@ -995,7 +1067,7 @@ void solve() {
                     int val = j+1;
                     int row = parity[j].back().first;
                     int col = parity[j].back().second;
-                    cout << val << " " << row << " " << col << endl;
+                    cout << val << " " << row << " " << col << '\n';
                     parity[j].pop_back();
                     break;
                 }
@@ -1006,6 +1078,9 @@ void solve() {
 }
 
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     int t=1;
     // cin >> t;
     for (int i=0;i<t;i++) {
@@ -1045,13 +1120,16 @@ void solve() {
         // O(logn) with euclidean algo
     }
     if (abs(k-v[0])%ans==0) {
-        cout << "YES" << endl;
+        cout << "YES" << '\n';
     } else {
-        cout << "NO" << endl;
+        cout << "NO" << '\n';
     }
 }
 
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     int t=1;
     cin >> t;
     for (int i=0;i<t;i++) {

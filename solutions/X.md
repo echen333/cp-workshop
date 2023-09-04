@@ -36,7 +36,7 @@ void solve() {
         }
     }
     if (cnt_ones%2 == 1) {
-        cout << "NO" << endl;
+        cout << "NO" << '\n';
         return;
     }
     cnt_ones -= cnt_ones/2; // assign just first half as (
@@ -64,11 +64,11 @@ void solve() {
     }
     string s1(r1), s2(r2);
     if (works(s1) && works(s2)) {
-        cout << "YES" << endl;
+        cout << "YES" << '\n';
         cout << s1 << '\n';
         cout << s2 << '\n';
     } else {
-        cout << "NO" << endl;
+        cout << "NO" << '\n';
     }
 
     for (int i=0;i<n;i++) {
@@ -79,6 +79,9 @@ void solve() {
 }
 
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     int t=1;
     cin >> t;
     for (int i=0;i<t;i++) {

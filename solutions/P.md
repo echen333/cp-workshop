@@ -21,13 +21,16 @@ void solve() {
 
     int distinct_nums = m.size();
     if (distinct_nums-1 >= ans) {
-        cout << ans << endl;
+        cout << ans << '\n';
     } else {
-        cout << min(ans-1, distinct_nums) << endl;
+        cout << min(ans-1, distinct_nums) << '\n';
     }
 }
 
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     int t;
     cin >> t;
     for (int i=0;i<t;i++) {
