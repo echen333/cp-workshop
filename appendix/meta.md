@@ -8,6 +8,8 @@ I think a lot of times we obsess over the right way to get into something or the
 
 ## Jeffrey Chang
 
+## Others
+
 From [usaco.guide](https://usaco.guide/general/practicing?lang=cpp) (many omitted, please click the link if you are interested),
 
 > *How to practice and when to read editorials (analyses) according to various USACO competitors.*
