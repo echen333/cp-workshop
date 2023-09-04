@@ -32,16 +32,17 @@ C++ is a widely-used systems programming language known for its fast coding and 
 
 ### On Windows
 
-- Download [MinGW](https://mingw-w64.org/).
-- Install MinGW by following the on-screen instructions.
-- To add MinGW to your system PATH:
-  1. Right-click on "This PC" or "My Computer" and select "Properties."
-  2. Click on "Advanced system settings."
-  3. Click on "Environment Variables."
-  4. Under "System variables," find and select the "Path" variable, then click on "Edit."
-  5. Click on "New" and paste the path to the `bin` directory inside your MinGW installation (usually `C:\MinGW\bin` or `C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin`).
-  6. Click "OK" to close all the dialog boxes.
-- Restart your computer or command prompt to apply the changes.
+For Windows we will install TDM-GCC.
+
+- Go to https://jmeubank.github.io/tdm-gcc/download/ and download `tdm64-gcc-10.3.0-2.exe`.
+- Open the application and select "Create" to "Create a new TDM-GCC installation".
+- For edition, select "MinGW-w64/TDM64 (32-bit and 64-bit)".
+- For installation directory, you can leave it as the default one they choose, which is usually `C:\TDM-GCC-64`.
+- For choosing components, leave the dropdown as the default "TDM-GCC Recommended, C/C++". Don't change any of the checkbox options. In particular, make sure "Add to PATH" is checked by default (it should be) so that you can compile with the terminal.
+- Click "Install".
+- Once that is done, run `g++ --version` in the terminal to verify it installed properly.
+
+If for whatever reason your TDM-GCC installation got messed up, you can fix it by reopening the installer application and selecting "Manage" instead of "Create" to modify your old installation. This will bring you back to the "Choose Components" screen where you can make sure all the proper boxes are checked.
 
 ### On Linux
 
@@ -70,7 +71,7 @@ We recommend using Sublime Text for competitive programming (please make our lif
     "selector": "source.c++"
   }
   ```
-- Save the file with a meaningful name, like `cpp_build.sublime-build`.
+- Save the file to the default directory they provide with a meaningful name, like `cpp_build.sublime-build`.
 - Now you can press Ctrl + B to compile and run C++ files directly within Sublime Text.
 
 *Note*: Sublime may once in awhile ask for you to buy their premium version. Just ignore this, premium has no better features.
@@ -85,9 +86,9 @@ We provide a starting code template at [template.cpp](./appendix/template.cpp). 
 
    ```cpp
    #include <bits/stdc++.h>
-
+   
    int main() {
-     cout << "Hello World" << endl;
+     cout << "Hello World" << '\n';
    }
    ```
 

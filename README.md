@@ -1,8 +1,8 @@
 # GT Competitive Programming Workshop
 
-Welcome to Competitive Programming at GT's beginner workshop! Our workshop serves as an introduction to competitive programming for first and second-year students at GT.
+Welcome to Competitive Programming at GT's beginner workshop! Our workshop serves as an introduction to competitive programming for students at GT.
 
-Our workshop is scheduled for three days from Tuesday, 9/5 to Thursday, 9/7, from 5-7PM each day in CCB . We will cover everything from setting up your environment to basic algorithms, leading you on the path to becoming a seasoned competitive programmer!
+Our workshop is scheduled for three days from Tuesday, 9/5 to Thursday, 9/7, from 5-7PM each day in CCB 107A. We will cover everything from setting up your environment to basic algorithms, leading you on the path to becoming a seasoned competitive programmer!
 
 You can find our discord [here](https://discord.gg/QYR3XDgda7).
 
@@ -35,7 +35,7 @@ We meet every Thursday at 5 PM, where we will go over problem-solving techniques
 
 We also have extended practices on Saturday in preparation for competitions like the ICPC (International Collegiate Programming Contest). Learn more the about format of ICPC [here](./appendix/format.md).
 
-We believe you get out what you put into the club. Success in competitive programming surprisingly boils down to hard work and determination  much more than optimal learning. See [meta](./appendix/meta.md) for more information.
+Refer to [meta](./appendix/meta.md) for tips on practicing.
 
 If you ever need any assistance throughout, let any of the [officers](./appendix/officers.md) know. We should be walking around during the workshop.
 

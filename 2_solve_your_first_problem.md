@@ -14,7 +14,7 @@ In C++, the entry point of the program is the `main` function. Here's a simple e
 #include <iostream>
 
 int main() {
-  std::cout << "Hello, world!" << std::endl;
+  std::cout << "Hello, world!" << '\n';
   return 0;
 }
 ```
@@ -62,7 +62,7 @@ For loops in C++ have a similar structure to other languages:
 ```cpp
 for(int i = 0; i < 10; i++) {
 // by adding `using namespace std`, we can just use 'cout'
-  std::cout << i << std::endl;
+  std::cout << i << '\n';
 }
 ```
 
