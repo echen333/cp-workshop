@@ -11,6 +11,9 @@ For example, read in two integers as:
 using namespace std;
 
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     // Input is "5 3"
     int a,b;
     // a = 5, b = 3
