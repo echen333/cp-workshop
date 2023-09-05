@@ -49,11 +49,13 @@ Now go back and hit the "Run Code" button for your program, and its output shoul
 
 ![](../img/vscode-code-runner-executor-map.png)
 
-Click "Edit in settings.json" which should bring up a `settings.json` file. Add your desired compiler flags to the `cpp` entry of `code-runner.executorMap` and save the file.
+Click "Edit in settings.json" which should bring up a `settings.json` file. You can add your desired compiler flags to the `cpp` entry of `code-runner.executorMap` and save the file. Don't worry about this now/ we will cover it later on.
 
 ### Option 2: Terminal
 
 The nice thing about VS Code is the [integrated terminal](https://code.visualstudio.com/docs/terminal/basics). Use `` Ctrl + ` `` to open the terminal. Now you can compile your program there. For example, if your program was named `main.cpp`, then you would compile it with `g++ main.cpp -o main`. Then after compiling, you can run it from the terminal with `./main` (or simply `main` on Windows).
+
+All in one command, you can write it as `g++ main.cpp -o main && ./main`.
 
 Typing the full command out every time can be tedious, so it is recommended that you set up a [build task](https://code.visualstudio.com/docs/languages/cpp) in VS Code.
 

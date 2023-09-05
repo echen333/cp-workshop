@@ -24,3 +24,4 @@ Brian (gone in the fall, interning at Snowflake)
 - Neil Thistlethwaite: Currently at Jane Street
 - Jeffrey Chang: Currently at Jane Street
 - Jason Lee: Currently at Jane Street
+- Chris: Currently at Jane Street

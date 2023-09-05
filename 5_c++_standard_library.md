@@ -9,6 +9,7 @@ I don't think any of the problems in the problemset requires data structures bey
 Some notes:
 
 - a `vector` in C++ is analagous to `ArrayLists` in Java.
+- `set` and `map` are already sorted. To loop through their elements, use a for-each loop.
 
 ## An example
 
