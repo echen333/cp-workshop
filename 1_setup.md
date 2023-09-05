@@ -21,7 +21,7 @@ C++ is commonly used for systems programming due to its speed and efficient codi
 - Open Terminal and run `brew install gcc` to install the GNU Compiler Collection, which includes C++.
 - Verify the installation by running `g++ --version` in Terminal. You should see information about the installed version.
 - To include headers, navigate to filepath `/usr/local/include/bits/`, creating directories as needed(?). Create a file in the `bits` folder named `stdc++.h` and paste the file contents from [including_bits.md](./appendix/including_bits.md) into it.
-  - Now you should be all set to write `#include "bits/stdc++.h` in your C++ programs. Think of this as import in Java and Python. Note: do not use angle brackets, use quotes.
+  - Now you should be all set to write `#include "bits/stdc++.h"` in your C++ programs. Think of this as import in Java and Python. Note: do not use angle brackets, use quotes.
 
 **Note**: Ask any of the officers for help if you need.
 
