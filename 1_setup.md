@@ -58,7 +58,9 @@ If for whatever reason your TDM-GCC installation got messed up, you can fix it b
 
 ## IDE
 
-We recommend using Sublime Text for competitive programming (please make our life easier and use Sublime Text, if only for CP). Below are the instructions to get started with C++ development in Sublime Text.
+We recommend VS Code for competitive programming. Refer to [this guide](./appendix/vscode.md) for setup instructions. Everything up to and including the section "Compiling and Executing a C++ Program" is necessary, while the sections after are for quality of life (but heavily encouraged).
+
+<!-- We recommend using Sublime Text for competitive programming (please make our life easier and use Sublime Text, if only for CP). Below are the instructions to get started with C++ development in Sublime Text.
 
 - Download and install [Sublime Text](https://www.sublimetext.com/3).
 - After installing Sublime Text, you'll need to configure it to work with your C++ compiler (e.g., MinGW).
@@ -74,7 +76,7 @@ We recommend using Sublime Text for competitive programming (please make our lif
 - Save the file to the default directory they provide with a meaningful name, like `cpp_build.sublime-build`.
 - Now you can press Ctrl + B to compile and run C++ files directly within Sublime Text.
 
-*Note*: Sublime may once in awhile ask for you to buy their premium version. Just ignore this, premium has no better features.
+*Note*: Sublime may once in awhile ask for you to buy their premium version. Just ignore this, premium has no better features. -->
 
 ## Template Code
 
@@ -82,7 +84,7 @@ We provide a starting code template at [template.cpp](./appendix/template.cpp). 
 
 ## Run Hello World Locally
 
-1. Create a new file in any directory in Sublime Text.
+1. Create a new cpp file and paste the following code into it.
 
    ```cpp
    #include <bits/stdc++.h>
@@ -93,6 +95,6 @@ We provide a starting code template at [template.cpp](./appendix/template.cpp). 
    }
    ```
 
-2. Press `Ctrl-B` or `Cmd-B` on Mac. A black terminal window should popup with the output Hello World!.
+2. Compile and run the code according to the instructions in the [VS Code setup guide](./appendix/vscode.md). You should see the output "Hello World" in your terminal.
 
 Now let's [solve our first problem](./2_solve_your_first_problem.md)!
