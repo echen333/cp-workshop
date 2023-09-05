@@ -88,7 +88,7 @@ while(i < 10) {
 1. Go to [`codeforces.com`](https://codeforces.com) -> `Groups` in the headings bar -> `Gatech ICPC`.
    1. If you don't see Gatech ICPC, refer back to `README.md`
    2. This is where practice problemsets and competitions are held.
-2. You should see `Beginner Workshop`. Press enter.
+2. You should see [`Beginner Workshop`](https://codeforces.com/group/j7YsoIFtw4/contest/470347). Press enter.
    1. We have compiled a set of 26 problems for y'all.
    2. From now until the end of the workshop, try solving as many as you can. This is one of the only measurements you should judge your progress for this workshop by.
    3. The top $x<10$ (*undisclosed*) people that solve the most problems will get a special prize.
