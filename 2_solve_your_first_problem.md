@@ -85,7 +85,7 @@ while(i < 10) {
 
 ## Go to our codeforces mashup
 
-1. Go to [`codeforces.com`](codeforces.com) -> `Groups` in the headings bar -> `Gatech ICPC`.
+1. Go to [`codeforces.com`](https://codeforces.com) -> `Groups` in the headings bar -> `Gatech ICPC`.
    1. If you don't see Gatech ICPC, refer back to `README.md`
    2. This is where practice problemsets and competitions are held.
 2. You should see `Beginner Workshop`. Press enter.
