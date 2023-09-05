@@ -41,8 +41,6 @@ If for whatever reason your TDM-GCC installation got messed up, you can fix it b
 
 ### On Linux
 
-(Untested)
-
 - Open a terminal and run `sudo apt install build-essential`
 - Once that finishes, run `g++ --version` in the terminal to verify it installed properly.
 

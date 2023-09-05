@@ -32,12 +32,12 @@ See that we create variables by specificying the type and then the variable name
 
 ### Strings
 
-Strings in C++ can be handled using the std::string class:
+Strings in C++ can be handled using the std::string class. They are represented internally as an array of `char`'s.
 
 ```cpp
-#include <string>
-
-std::string name = "John";
+string name = "John";
+cout << name[1]; \\o
+cout << name.substr(2,2); \\hn
 ```
 
 ### Arrays
@@ -45,10 +45,15 @@ std::string name = "John";
 Arrays are a fixed-size collection of elements of the same type:
 
 ```cpp
-int numbers[5] = {10, 20, 30, 40, 50};
+int numbers[5] = {40, 10, 20, 50, 30};
+cout << numbers[1]; // 10
+sort(numbers, numbers+5);
+reverse(numbers, numbers+5);
+cout << numbers[0]; // 50
 ```
 
 Here is how to initialize an array of a fixed size. Note you need to let the compiler know that the size N is constant if you are initializing a global array (global meaning outside `main()`, global is recommended).
+
 ```cpp
 const int N=1e3;
 
@@ -62,7 +67,7 @@ For loops in C++ have a similar structure to other languages:
 ```cpp
 for(int i = 0; i < 10; i++) {
 // by adding `using namespace std`, we can just use 'cout'
-  std::cout << i << '\n';
+  cout << i << '\n';
 }
 ```
 
@@ -71,7 +76,7 @@ While loops continue as long as a condition is true:
 ```cpp
 int i = 0;
 while(i < 10) {
-  std::cout << i << '\n';
+  cout << i << '\n';
   i++;
 }
 ```
