@@ -19,6 +19,8 @@ int main() {
 }
 ```
 
+*Note*: you may see `std::cout`, which is referencing the `cout` object in the `std` library (library also includes utilities like `sort`, `string`, and `vector`). We can truncate the `std::` by writing `using namespace std` at the beginning of our program to let our compiler know we want everything in the `std` namespace.
+
 ### Primitives
 
 C++ has several basic data types, including:

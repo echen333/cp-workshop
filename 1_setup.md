@@ -56,24 +56,6 @@ If for whatever reason your TDM-GCC installation got messed up, you can fix it b
 
 We recommend VS Code for competitive programming. Refer to [our VS Code guide](./appendix/vscode.md) for setup instructions. Everything up to and including the section "Compiling and Executing a C++ Program" is necessary, while the sections after are for quality of life (but encouraged to follow after the workshop).
 
-<!-- We recommend using Sublime Text for competitive programming (please make our life easier and use Sublime Text, if only for CP). Below are the instructions to get started with C++ development in Sublime Text.
-
-- Download and install [Sublime Text](https://www.sublimetext.com/3).
-- After installing Sublime Text, you'll need to configure it to work with your C++ compiler (e.g., MinGW).
-- Go to "Tools" > "Build System" > "New Build System..." in Sublime Text.
-- Delete the pre-filled content and paste the following code:
-  ```json
-  {
-    "cmd": ["g++.exe", "-std=c++14", "-o", "$file_base_name", "$file", "&&", "start", "cmd", "/c", "$file_base_name & echo. & echo. & pause"],
-    "shell": true,
-    "selector": "source.c++"
-  }
-  ```
-- Save the file to the default directory they provide with a meaningful name, like `cpp_build.sublime-build`.
-- Now you can press Ctrl + B to compile and run C++ files directly within Sublime Text.
-
-*Note*: Sublime may once in awhile ask for you to buy their premium version. Just ignore this, premium has no better features. -->
-
 ## Template Code
 
 We provide a starting code template at [template.cpp](./appendix/template.cpp). This template includes essential libraries and fast Input/Ouput (fastIO).
