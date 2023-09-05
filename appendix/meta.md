@@ -8,6 +8,22 @@ I think a lot of times we obsess over the right way to get into something or the
 
 ## Jeffrey Chang
 
+My recommendations for improvement are generic, but in this case, the generic advice is good advice.
+
+First, attempt to do problems just outside your skill level. They shouldn't be too hard or too easy (although easy problems may be more fun). Your goal should be to learn how to solve problems. I like using question difficulty ratings on codeforces and kenkoooo.com for atcoder. The main way to improve is always to just do more problems, so the more time you spend, the better you'll get.
+
+Second, don't spend too long on a question, especially when you start. If it takes you more than 20 minutes to formulate a solution, read their solution and move on. You'll want to see a lot of different problems to learn.
+
+Third, make sure you understand their solution. This means figuring out why the solution works and why you want to use whatever algorithm or data structure. This is far more important than solving an individual question, because you learn how to think.
+
+Fourth, plan out your code on paper. Paper is a good habit because you can often find logic errors on paper. Additionally, don't spend too long coding a problem (<30 min).
+
+Fifth, this might be controversial but learning debugging is kinda a waste of time. If your code doesn't work but you can't figure out why, just read their solution and understand how they coded it. Imo, you just learn debugging and better coding habits over time regardless and the main focus for improving should be the concepts.
+
+Sixth, ask people for help. The discord is a great place to get help and other people are great resources 🙂
+
+Last, but most definitely not least (actually the most important thing). Competitive programming should be a lot of fun and not a homework. It's a lot easier to spend another 5 hours on an ICPC set on my weekend because I find it fun to solve problems and program solutions. Make friends or recruit your friends to join you, so you have a good time doing competitive programming!
+
 ## Edward Chen
 
 Practice on Codeforces problems a little above your rating. Judge your progress by how many difficult problems you've completed. Don't worry too much about your rating, it lags behind your skill.
