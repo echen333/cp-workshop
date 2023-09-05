@@ -6,29 +6,24 @@ At GT Competitive Programming, we **strongly** encourage everyone to use C++. If
 
 ## Why C++
 
-C++ is a widely-used systems programming language known for its fast coding and execution speed. Its syntax allows for concise expressions of complex algorithms, making it a favorite choice in competitive programming. It also has:
+C++ is commonly used for systems programming due to its speed and efficient coding. Its clear syntax helps in writing complex algorithms concisely, making it popular for competitive programming. It offers:
 
-- **Fast Execution**: 10x faster than interpreted languages like Python.
-- **Rich Library Support**: Includes the Standard Template Library (STL) with ready-to-use templates for common data structures and algorithms.
-- **Systems Programming**: Offers low-level access to computer memory, somewhat useful for optimizations.
+- Faster execution compared to languages like Python.
+- A robust Standard Template Library (STL) for data structures and algorithms.
+- Low-level memory access for optimization.
 
 ## Install C++
 
-### On Mac with new silicon chips (M1, M2)
+### On Macs (both silicon and pre-silicon)
 
 - Check if you have Homebrew installed by opening Terminal and running `brew --version`. If not installed, proceed to the next step.
 - Install [Homebrew](https://brew.sh/), a package manager for macOS, by following the instructions on their website or running the provided installation script in Terminal.
 - Open Terminal and run `brew install gcc` to install the GNU Compiler Collection, which includes C++.
 - Verify the installation by running `g++ --version` in Terminal. You should see information about the installed version.
+- To include headers, navigate to filepath `/usr/local/include/bits/`, creating directories as needed(?). Create a file in the `bits` folder named `stdc++.h` and paste the file contents from [including_bits.md](./appendix/including_bits.md) into it.
+  - Now you should be all set to write `#include "bits/stdc++.h` in your C++ programs. Think of this as import in Java and Python. Note: do not use angle brackets, use quotes.
 
-### On Older Macs
-
-- Check if Xcode Command Line Tools are installed by opening Terminal and running `gcc --version`. If a version number is displayed, the tools are already installed. If not, proceed to the next step.
-- Open Terminal and install Xcode Command Line Tools by running `xcode-select --install`. A popup window will appear; click "Install" to proceed.
-- Follow the on-screen instructions to complete the installation.
-- Verify the installation by running `g++ --version` in Terminal. You should see information about the installed version.
-
-**Note**: Last time I did this, it was quite annoying and took a long time. Ask any of the officers for help if you need.
+**Note**: Ask any of the officers for help if you need.
 
 ### On Windows
 
@@ -46,6 +41,8 @@ If for whatever reason your TDM-GCC installation got messed up, you can fix it b
 
 ### On Linux
 
+(Untested)
+
 - Open a terminal and run `sudo apt install build-essential`
 - Once that finishes, run `g++ --version` in the terminal to verify it installed properly.
 
@@ -58,7 +55,7 @@ If for whatever reason your TDM-GCC installation got messed up, you can fix it b
 
 ## IDE
 
-We recommend VS Code for competitive programming. Refer to [this guide](./appendix/vscode.md) for setup instructions. Everything up to and including the section "Compiling and Executing a C++ Program" is necessary, while the sections after are for quality of life (but heavily encouraged).
+We recommend VS Code for competitive programming. Refer to [our VS Code guide](./appendix/vscode.md) for setup instructions. Everything up to and including the section "Compiling and Executing a C++ Program" is necessary, while the sections after are for quality of life (but encouraged to follow after the workshop).
 
 <!-- We recommend using Sublime Text for competitive programming (please make our life easier and use Sublime Text, if only for CP). Below are the instructions to get started with C++ development in Sublime Text.
 
@@ -80,7 +77,7 @@ We recommend VS Code for competitive programming. Refer to [this guide](./append
 
 ## Template Code
 
-We provide a starting code template at [template.cpp](./appendix/template.cpp). This template includes essential libraries and fast Input/Ouput (fastIO). Feel free to modify it to suit your coding style.
+We provide a starting code template at [template.cpp](./appendix/template.cpp). This template includes essential libraries and fast Input/Ouput (fastIO).
 
 ## Run Hello World Locally
 
