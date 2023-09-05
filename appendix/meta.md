@@ -8,6 +8,10 @@ I think a lot of times we obsess over the right way to get into something or the
 
 ## Jeffrey Chang
 
+## Edward Chen
+
+Practice on Codeforces problems a little above your rating. Judge your progress by how many difficult problems you've completed. Don't worry too much about your rating, it lags behind your skill.
+
 ## Others
 
 From [usaco.guide](https://usaco.guide/general/practicing?lang=cpp) (many omitted, please click the link if you are interested),
