@@ -1,6 +1,6 @@
 # Including bits/stdc++.h
 
-Write this to the file `/usr/local/include/bits/stc++.h`
+Write this to the file `/usr/local/include/bits/stdc++.h`
 
 ```cpp
 // C++ includes used for precompiling -*- C++ -*-
