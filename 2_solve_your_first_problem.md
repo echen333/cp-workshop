@@ -100,7 +100,7 @@ The problem statement requires us to read in two integers and print out their su
 
 A hint is provided [here](./hints/A.md).
 
-To submit your solution, submit by pasting your code under `Submit Code` in the top panel or by choosing your `.cpp` file on right-side panel.
+To submit your solution, submit by pasting your code under `Submit Code` in the top panel or by choosing your `.cpp` file on right-side panel. Select your language as `GNU G++20 11.2.0`.
 
 Codeforces will then redirect you to your `Status` page. Your status will be one of the following:
 
