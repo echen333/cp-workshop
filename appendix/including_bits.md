@@ -106,3 +106,22 @@ If you have installed g++ as described before, you can use #include <bits/stdc++
 
 - https://www.geeksforgeeks.org/bitsstdc-h-c/
 - https://usaco.guide/CPH.pdf#page=13
+
+## Manually include (if you must)
+
+If the above doesn't work, you can manually include. here are the basic ones you might need.
+
+```cpp
+#include <algorithm>
+#include <array>
+#include <cmath>
+#include <cstring>
+#include <iostream>
+#include <map>
+#include <numeric>
+#include <queue>
+#include <set>
+#include <string>
+#include <utility>
+#include <vector>
+```
