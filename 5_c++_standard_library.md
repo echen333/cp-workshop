@@ -2,9 +2,9 @@
 
 *Prev: [Introduction to Time Complexity](./4_introduction_to_time_complexity.md)*
 
-Read through the beginning of [Chapter 4](https://cses.fi/book/book.pdf#page=45) of the CSES handbook on data structures. 
+Read through the beginning of [Chapter 4](https://cses.fi/book/book.pdf#page=45) of the CSES handbook on data structures.
 
-I don't think any of the problems in the problemset requires data structures beyond sets, vectors, and maps (and very few do require these).
+No problems in the set require data structures beyond sets, vectors, and maps (and very few do require these).
 
 Some notes:
 

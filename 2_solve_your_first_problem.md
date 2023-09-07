@@ -25,7 +25,7 @@ int main() {
 
 C++ has several basic data types, including:
 
-- Integer (`int`): e.g., `int x = 42;`
+- Integer (`int`): e.g., `int x = 42;`, defaults to 0
 - Floating-point (`float`, `double`): e.g., `float y = 3.14;`
 - Character (`char`): e.g., `char letter = 'A';`
 - Boolean (`bool`): e.g., `bool isTrue = true;`
@@ -134,7 +134,7 @@ int main() {
 }
 ```
 
-We first have to read in $t$, the number of test cases in the input. We will then have to loop $t$ times, reading in two integers each time.
+We first have to read in $t$, the number of test cases in the input. We will then have to loop $t$ times, reading in two integers each time. This is our complete code.
 
 ```cpp
 #include "bits/stdc++.h"
@@ -156,6 +156,8 @@ int main() {
 ```
 
 There we go! Try running it locally, copying the input from Codeforces and pasting it inside your Terminal. Your output should match the output on Codeforces.
+
+*Note*: You should always run your code locally before submitting in to Codeforces. There are very few times where you will code bug free, and wrong submissions are penalized during contests. **We should not see any Wrong Answers on Test Case 1!**
 
 Now, try submitting! To submit your solution, submit by pasting your code under `Submit Code` in the top panel or by choosing your `.cpp` file on right-side panel. **Select your language as `GNU G++20 11.2.0`.**
 
