@@ -23,6 +23,7 @@ C++ is commonly used for systems programming due to its speed and efficient codi
 - To include headers, open `Finder` and navigate to filepath `/usr/local/include/bits/`, creating directories as needed. Create a file in the `bits` folder named `stdc++.h` and paste the file contents from [including_bits.md](./appendix/including_bits.md) into it.
   - Now you should be all set to write `#include "bits/stdc++.h"` in your C++ programs. Think of this as `import` in Java and Python.
   - Note: do not use include with angle brackets for bits, use quotes.
+  - `TODO`: include terminal commands since hard to find in `Finder`.
 
 **Note**: Ask any of the officers for help if you need.
 
