@@ -83,6 +83,8 @@ Now if everything goes smoothly, you will get your pretty colors in your C++ and
 
 ![](../img/vscode-clangd.png)
 
+**UPD: The steps below for configuring clangd do work but are somewhat hacky. I have now read up on clangd configs and figured out the more idiomatically correct way of configuring clangd, and I wrote an [updated guide](clangd_config.md).**
+
 However, there is a good chance it won't just work out of the box. Specifically, you may run into issues with include paths (e.g. `#include <bits/stdc++.h>` not working). As the name suggests, clangd uses Clang instead of GCC to compile your program. `#include <bits/stdc++.h>` is a GCC compiler extension and not part of the actual C++ standard, so there is no guarantee that your Clang installation will support it. In case it doesn't, you simply have to add a flag to cross-compile to GCC.
 
 Go to extension settings for clangd and find the "Fallback Flags" option. Add a line of the form `--target=<triple>` to that flag list, where `<triple>` depends on your computer operating system and architecture. Refer to [this link](https://clang.llvm.org/docs/CrossCompilation.html#target-triple) for how to build this `<triple>` string. For example, on my Windows laptop I use `--target=x86_64-w64-windows-gnu` and on my PC I use `--target=x86_64-pc-linux-gnu`. Save your settings changes and reload VS Code once you're done.
