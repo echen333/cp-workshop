@@ -20,6 +20,9 @@ C++ is commonly used for systems programming due to its speed and efficient codi
 - Install [Homebrew](https://brew.sh/), a package manager for macOS, by following the instructions on their website or running the provided installation script in Terminal.
 - Open Terminal and run `brew install gcc` to install the GNU Compiler Collection, which includes C++.
 - Verify the installation by running `g++ --version` in Terminal. You should see information about the installed version.
+  - Modern gcc compiler binaries typically ship with the version number attached to the name (e.g. the binary name will be `g++-14` instead of simply `g++`). You can still map it to `g++` by creating a symlink.
+  - Find the path to the compiler binary that Homebrew installed. For example, mine was installed at `/opt/homebrew/Cellar/gcc/14.1.0_2/bin/g++-14`.
+  - Create a symlink in your `/usr/local/bin/` directory (create it if it does not exist) with the command `ln -s <path to your Homebrew g++> /usr/local/bin/g++`. If you already have a symlink in that directory, do `-sf` instead of `-s` to overwrite it. You may need to prefix the command with `sudo` to gain permissions to write to that directory.
 - To include headers, open `Finder` and navigate to filepath `/usr/local/include/bits/`, creating directories as needed. Create a file in the `bits` folder named `stdc++.h` and paste the file contents from [including_bits.md](./appendix/including_bits.md) into it.
   - Now you should be all set to write `#include "bits/stdc++.h"` in your C++ programs. Think of this as `import` in Java and Python.
   - Note: do not use include with angle brackets for bits, use quotes.
