@@ -22,8 +22,10 @@ CompileFlags:
     -Wno-sign-conversion,
     -ferror-limit=0,
   ]
-  Compiler: /usr/local/bin/g++
+  Compiler: <path to your compiler>
 ```
+
+Where `<path to your compiler>` should be replaced with the path to your local GNU compiler installation (e.g. mine is `/usr/local/bin/g++`).
 
 To explain each of the flags:
 - `-std=c++20`: This compiles your program using the C++ 2020 standard. At the time of writing, the C++ 2023 standard can only be enabled experimentally with `-std=c++2b`.
