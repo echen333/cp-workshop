@@ -1,6 +1,6 @@
 # How to Practice
 
-*How to practice and when to read editorials (analyses) according to various USACO competitors.*
+*How to practice and when to read editorials (analyses) according to various Competitive Programmers.*
 
 ## Max Zhang
 

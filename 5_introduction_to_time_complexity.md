@@ -1,6 +1,6 @@
 # An Introduction to Time Complexity.
 
-*Prev: [Practice](./3_practice_practice_practice.md)*
+*Prev: [Practice](./4_practice_practice_practice.md)*
 
 ![Image of Time Complexity Chart](./img/time-complexity.png)
 
@@ -10,4 +10,4 @@ In basically all CP problems, you can determine from the input size the time com
 
 Because of how costly implementing a wrong/slow algo is, you must think about your algo's time complexity before you implement it in code and make sure it matches the intended time complexity.
 
-You are almost ready to solve the remaining problems! Finish strong by learning about vectors, sets, maps and more in our fifth and last section, [STL library](./5_c++_standard_library.md).
+You are almost ready to solve the remaining problems! Finish strong by learning about vectors, sets, maps and more in our fifth and last section, [STL library](./6_c++_standard_library.md).

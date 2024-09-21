@@ -1,94 +1,15 @@
 # Solve your first problem
 
-*Prev: [Setup](./1_setup.md)*
+*Prev: [Setup](./2_setup.md)*
 
-## Introduction to C++
-
-For most help, search on Google. Reading docs might be helpful, but they go into a lot more detail than you would need now.
-
-### Basics and Program Structure
-
-In C++, the entry point of the program is the `main` function. Here's a simple example:
-
-```cpp
-#include <iostream>
-
-int main() {
-  std::cout << "Hello, world!" << '\n';
-  return 0;
-}
-```
-
-*Note*: you may see `std::cout`, which is referencing the `cout` object in the `std` library (library also includes utilities like `sort`, `string`, and `vector`). We can truncate the `std::` by writing `using namespace std` at the beginning of our program to let our compiler know we want everything in the `std` namespace.
-
-### Primitives
-
-C++ has several basic data types, including:
-
-- Integer (`int`): e.g., `int x = 42;`, defaults to 0
-- Floating-point (`float`, `double`): e.g., `float y = 3.14;`
-- Character (`char`): e.g., `char letter = 'A';`
-- Boolean (`bool`): e.g., `bool isTrue = true;`
-
-See that we create variables by specificying the type and then the variable name:
-
-### Strings
-
-Strings in C++ can be handled using the std::string class. They are represented internally as an array of `char`'s.
-
-```cpp
-string name = "John";
-cout << name[1]; \\o
-cout << name.substr(2,2); \\hn
-```
-
-### Arrays
-
-Arrays are a fixed-size collection of elements of the same type:
-
-```cpp
-int numbers[5] = {40, 10, 20, 50, 30};
-cout << numbers[1]; // 10
-sort(numbers, numbers+5);
-reverse(numbers, numbers+5);
-cout << numbers[0]; // 50
-```
-
-Here is how to initialize an array of a fixed size. Note you need to let the compiler know that the size N is constant if you are initializing a global array (global meaning outside `main()`, global is recommended).
-
-```cpp
-const int N=1e3;
-
-int numbers[N]
-```
-
-### Loops
-
-For loops in C++ have a similar structure to other languages:
-
-```cpp
-for(int i = 0; i < 10; i++) {
-// by adding `using namespace std`, we can just use 'cout'
-  cout << i << '\n';
-}
-```
-
-While loops continue as long as a condition is true:
-
-```cpp
-int i = 0;
-while(i < 10) {
-  cout << i << '\n';
-  i++;
-}
-```
+If you would like a primer on C++, **please check out our** [introduction to C++](./appendix/intro_to_cpp.md). Otherwise, go ahead and solve your first problem!
 
 ## Go to our codeforces mashup
 
 1. Go to [`codeforces.com`](https://codeforces.com) -> `Groups` in the headings bar -> `Gatech ICPC`.
    1. If you don't see Gatech ICPC, refer back to `README.md`
    2. This is where practice problemsets and competitions are held.
-2. You should see [`Beginner Workshop`](https://codeforces.com/group/j7YsoIFtw4/contest/470347). Press enter.
+2. Use this link to enter the beginner workshop: [`Beginner Workshop`](https://codeforces.com/group/j7YsoIFtw4/contest/551690). You can also scroll down until you find a contest titled "Beginner Workshop".
    1. We have compiled a set of 26 problems for y'all.
    2. From now until the end of the workshop, try solving as many as you can. This is one of the only measurements you should judge your progress for this workshop by.
    3. The top $x<10$ (*undisclosed*) people that solve the most problems will get a special prize.
@@ -174,4 +95,4 @@ Let us know if you need help debugging!
 
 ## What's next
 
-Now, [**what's next?**](./3_practice_practice_practice.md)
+Now, [**what's next?**](./4_practice_practice_practice.md)
