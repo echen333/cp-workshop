@@ -1,6 +1,6 @@
 # Practice
 
-*Prev: [Solve Your First Problem](./2_solve_your_first_problem.md)*
+*Prev: [Solve Your First Problem](./3_solve_your_first_problem.md)*
 
 See if you can solve the first five problems: A,B,C,D,E. and report back to here after! Hints are provided in the hints folder! Try to code it all up yourself.
 
@@ -25,4 +25,4 @@ More advanced debugging docs can be found [here](https://usaco.guide/general/bas
 
 ## Time Complexity
 
-You may have noticed us talking about Big O Notation a lot. Big O is a powerful tool to let you estimate if your solution will run in time before you code it! We will dive more into this in the [next section](./4_introduction_to_time_complexity.md).
+You may have noticed us talking about Big O Notation a lot. Big O is a powerful tool to let you estimate if your solution will run in time before you code it! We will dive more into this in the [next section](./5_introduction_to_time_complexity.md).

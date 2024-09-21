@@ -1,6 +1,6 @@
 # C++ Standard Library
 
-*Prev: [Introduction to Time Complexity](./4_introduction_to_time_complexity.md)*
+*Prev: [Introduction to Time Complexity](./5_introduction_to_time_complexity.md)*
 
 Read through the beginning of [Chapter 4](https://cses.fi/book/book.pdf#page=45) of the CSES handbook on data structures.
 
